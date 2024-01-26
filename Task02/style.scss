@@ -1,0 +1,13 @@
+@import "reset";
+@import "vars";
+
+.title {
+    text-align: center;
+    color: $colorCite;
+}
+
+.container {
+    &__header {
+        color: $colorCite;
+    }
+}
