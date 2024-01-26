@@ -1,9 +1,11 @@
-@import "reset";
-@import "vars";
+// Some comment here
+
+@import "reset", "vars";
 
 .title {
     text-align: center;
     color: $colorCite;
+    $colorSite: ;
 }
 
 .container {
@@ -11,8 +13,6 @@
         color: $colorCite;
     }
 }
-
-// Some comment here
 
 .nav {
     display: flex;
