@@ -1,0 +1,33 @@
+@import "reset";
+@import "vars";
+
+.title {
+    text-align: center;
+    color: $colorCite;
+}
+
+.container {
+    &__header {
+        color: $colorCite;
+    }
+}
+
+// Some comment here
+
+.nav {
+    display: flex;
+    gap: $gap;
+    &__link {
+        text-decoration: none;
+    }
+}
+
+.content {
+    @include fbjcac;
+    display: flex;
+    gap: $gap;
+    &__item {
+        width: $widthSite/4;
+        border: $myBorder;
+    }
+}
