@@ -2,7 +2,7 @@
     background-color: $backColor;
     padding-top: 103px;
     padding-bottom: 104px;
-    color: #fbfbfb;
+    color: $backColorInverse;
     &__container {
         display: flex;
         gap: 30px;

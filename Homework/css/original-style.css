@@ -458,7 +458,7 @@ details[open] .details__box {
 	background-color: #222224;
 	padding-top: 103px;
 	padding-bottom: 104px;
-	color: #fbfbfb;
+	color: $backColorInverse;
 }
 
 .operation__container {
@@ -584,7 +584,7 @@ footer {
 
 .footer__cp {
 	line-height: 19px;
-	color: #FBFBFB;
+	color: $backColorInverse;
 }
 
 .footer__icons {

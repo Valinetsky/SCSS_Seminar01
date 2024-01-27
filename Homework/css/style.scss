@@ -1,22 +1,7 @@
 @import "reset";
 @import "vars";
 
-body {
-    font-family: $mainFont;
-    color: $mainColor;
-    font-size: $mainFontSize;
-    font-weight: $mainFontWeight;
-}
-
-.center {
-    width: $siteWidthMax;
-    margin: 0 auto;
-    box-sizing: border-box;
-}
-
-.text__center {
-    text-align: center;
-}
+@import "base";
 
 @import "nav";
 
