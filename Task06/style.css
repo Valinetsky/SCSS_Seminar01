@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  text-align: center;
+  color: #8a2be2;
+}
+
+.container__header {
+  color: #8a2be2;
+}
+
+.nav {
+  display: flex;
+  gap: 16px;
+}
+.nav__link {
+  text-decoration: none;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 16px;
+}
+.content__item {
+  width: 300px;
+  border: 1px solid #000;
+}/*# sourceMappingURL=style.css.map */

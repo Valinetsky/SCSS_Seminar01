@@ -3,17 +3,17 @@
 
 .title {
     text-align: center;
-    color: $colorCite;
+    color: $colorSite;
 }
 
 .container {
     &__header {
-        color: $colorCite;
+        color: $colorSite;
     }
 }
 
 // Compilation Error
 // Error: Undefined variable.
 //   ╷
-// 6 │     color: $colorCite;
+// 6 │     color: $colorSite;
 //   │            ^^^^^^^^^^

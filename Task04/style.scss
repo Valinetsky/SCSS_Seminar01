@@ -3,12 +3,12 @@
 
 .title {
     text-align: center;
-    color: $colorCite;
+    color: $colorSite;
 }
 
 .container {
     &__header {
-        color: $colorCite;
+        color: $colorSite;
     }
 }
 
@@ -26,7 +26,7 @@
     display: flex;
     gap: $gap;
     &__item {
-        width: $widthSite/4;
+        width: calc($widthSite / 4);
         border: $myBorder;
     }
 }

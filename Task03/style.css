@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  text-align: center;
+  color: #8a2be2;
+}
+
+.container__header {
+  color: #8a2be2;
+}
+
+.nav {
+  display: flex;
+  gap: 16px;
+}
+.nav__link {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
