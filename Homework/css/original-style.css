@@ -178,7 +178,7 @@ details[open] .details__box {
 .topmenu__person a {
 
 	line-height: 2;
-	color: #F16D7F;
+	color: $accentColor;
 	margin-bottom: 12px;
 }
 
@@ -211,7 +211,7 @@ details[open] .details__box {
 	width: 19px;
 	height: 19px;
 
-	background: #F16D7F;
+	background: $accentColor;
 	color: white;
 
 	font-size: 12px;
@@ -253,7 +253,7 @@ details[open] .details__box {
 .logo__rectangle {
 	width: 12px;
 	height: 97%;
-	background-color: #F16D7F;
+	background-color: $accentColor;
 	margin-right: 16px;
 }
 
@@ -270,7 +270,7 @@ details[open] .details__box {
 }
 
 .logo__subheader_colored {
-	color: #F16D7F;
+	color: $accentColor;
 }
 
 .overview {
@@ -297,7 +297,7 @@ details[open] .details__box {
 }
 
 .overview__title {
-	color: #F16D7F;
+	color: $accentColor;
 	font-size: 24px;
 	font-weight: 700;
 }
@@ -359,7 +359,7 @@ details[open] .details__box {
 }
 
 .card__price {
-	color: #F16D7F;
+	color: $accentColor;
 	font-size: 16px;
 	font-weight: 400;
 }
@@ -392,7 +392,7 @@ details[open] .details__box {
 }
 
 .card__button:hover .icon {
-	background: #F16D7F;
+	background: $accentColor;
 }
 
 .card__add {
@@ -556,7 +556,7 @@ input[type=text] {
 input[type=submit] {
 	padding: 19px;
 	color: white;
-	background: #F16D7F;
+	background: $accentColor;
 	border-radius: 0 50px 50px 0;
 }
 
@@ -603,7 +603,7 @@ footer {
 }
 
 .footer__iconbox:hover {
-	background-color: #F16D7F;
+	background-color: $accentColor;
 }
 
 .footer__iconbox:hover path {

@@ -114,7 +114,7 @@ function cardBuild(number, quantity) {
                     </p>
                     <p class="cartitem__info">Color: Red</p>
                     <p class="cartitem__info">Size: Xl</p>
-                    <div class="cart__quantity">
+                    <div class="cartitem__quantity">
                         <p class="cartitem__info">Quantity:</p>
                         <p class="cartitem__number">${quantity}</p>
                     </div>

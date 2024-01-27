@@ -1,24 +1,37 @@
-@import 'reset';
+@import "reset";
+@import "vars";
 
 body {
-	font-family: 'Lato', sans-serif;
-	color: #5D5D5D;
-	font-size: 14px;
-	font-weight: 300;
+    font-family: $mainFont;
+    color: $mainColor;
+    font-size: $mainFontSize;
+    font-weight: $mainFontWeight;
 }
 
 .center {
-	width: 1140px;
-	margin: 0 auto;
-	box-sizing: border-box;
+    width: $siteWidthMax;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 
 .text__center {
-	text-align: center;
+    text-align: center;
 }
 
-@import 'nav';
+@import "nav";
 
-@import 'secBrand';
+@import "secBrand";
 
-@import 'secOverview';
+@import "secOverview";
+
+@import "secGoods";
+
+@import "secOperation";
+
+@import "secSubscribe";
+
+@import "footer";
+
+@import "take";
+
+@import "cartitem";
