@@ -323,15 +323,12 @@ details[open] .details__box {
   display: flex;
   justify-content: space-between;
 }
-
 .choice__details {
   position: relative;
 }
-
 .choice__details[open] summary img {
   transform: rotate(180deg);
 }
-
 .choice__content {
   background: white;
   box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
@@ -342,23 +339,25 @@ details[open] .details__box {
   padding: 10px;
   z-index: 100;
 }
-
+.choice__content li {
+  margin-bottom: 5px;
+}
+.choice__content li:last-child {
+  margin-bottom: 0;
+}
 .choice__summary {
   position: relative;
 }
-
 .choice__square {
   width: 13px;
   height: 13px;
   border: 1px solid #e1e1e1;
 }
-
 .choice__line {
   display: flex;
   align-items: center;
   gap: 9px;
 }
-
 .choice__box {
   display: flex;
   gap: 10px;
