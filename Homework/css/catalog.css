@@ -234,26 +234,134 @@ details[open] .details__box {
 }
 
 .menu__filter {
+  position: relative;
+}
+.menu__details {
+  list-style: none;
+  display: flex;
+}
+.menu__details[open] {
+  padding: 13px 33px 0px 16px;
+  position: absolute;
+  top: -13px;
+  left: -16px;
+  z-index: 100;
+  background: white;
+  box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+}
+.menu__details[open] p {
+  color: #f16d7f;
+}
+.menu__details[open] path {
+  fill: #f16d7f;
+}
+.menu__switch {
   display: flex;
   gap: 11px;
+  align-items: center;
 }
-
-.menu__text_bold {
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 17px;
-  color: black;
-}
-
-.menu__choice {
-  display: flex;
-  gap: 28px;
-}
-
 .menu__text {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
+}
+.menu__text_bold {
+  font-weight: 600;
+  color: black;
+  display: inline-block;
+}
+.menu__choice {
+  display: flex;
+  gap: 28px;
+}
+.menu__img path {
+  fill: black;
+}
+
+.filter {
+  margin-top: 20px;
+}
+.filter__details:last-child {
+  margin-bottom: 0px;
+  padding-bottom: 0;
+}
+.filter__details[open] summary {
+  color: #f16d7f;
+}
+.filter__summary {
+  font-weight: 400;
+  color: #6f6e6e;
+  padding: 8px 11px 11px;
+  border-left: 5px solid #f16d7f;
+  margin-bottom: 18px;
+  position: relative;
+}
+.filter__summary::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid #e1e1e1;
+}
+.filter__ul {
+  color: #6f6e6e;
+  padding-left: 16px;
+}
+.filter__li {
+  margin-bottom: 6px;
+}
+.filter__li:first-child {
+  margin-top: 24px;
+}
+.filter__li:last-child {
+  margin-bottom: 24px;
+}
+
+.choice {
+  display: flex;
+  justify-content: space-between;
+}
+
+.choice__details {
+  position: relative;
+}
+
+.choice__details[open] summary img {
+  transform: rotate(180deg);
+}
+
+.choice__content {
+  background: white;
+  box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  z-index: 100;
+}
+
+.choice__summary {
+  position: relative;
+}
+
+.choice__square {
+  width: 13px;
+  height: 13px;
+  border: 1px solid #e1e1e1;
+}
+
+.choice__line {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.choice__box {
+  display: flex;
+  gap: 10px;
 }
 
 .goods {
